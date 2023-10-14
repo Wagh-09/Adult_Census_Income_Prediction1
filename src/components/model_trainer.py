@@ -17,7 +17,7 @@ from src.utils import evaluate_model
 
 @dataclass
 class ModelTraningConfig:
-    train_model_file_obj = os.path.join("artifcats","model.pkl")
+    train_model_file_obj = os.path.join("artifacts","model.pkl")
 
 
 class ModelTrainer:
