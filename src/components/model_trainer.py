@@ -36,17 +36,12 @@ class ModelTrainer:
             )
 
             models = {
-                "Random Forest": RandomForestClassifier(),
+                
                 
                 "Logastic":LogisticRegression()
             }
             params = {
-                "Random Forest":{
-                    "class_weight":["balanced"],
-                    'n_estimators': [20, 50, 30],
-                    'max_depth': [10, 8, 5],
-                    'min_samples_split': [2, 5, 10],
-                },
+                
                 
             
                 "Logastic":{
